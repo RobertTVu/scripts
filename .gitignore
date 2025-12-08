@@ -1,0 +1,39 @@
+# Logs & temporary files
+*.log
+*.tmp
+*.temp
+
+# Security sensitive
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+.env
+.env.local
+
+# CTF/Forensics
+*.pcap
+*.cap
+*.pcapng
+dumps/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Bash
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
