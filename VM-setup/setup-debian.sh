@@ -5,11 +5,6 @@ apt update && apt upgrade -y
 
 # Install basic tools
 apt install -y nano vim curl wget dnsutils 
-
-# Tangentbord & timezone
-loadkeys sv 
-localectl set-keymap sv 
-timedatectl set-timezone Europe/Stockholm
 echo "==== Setup done! ===="
 
 # Install SSH
