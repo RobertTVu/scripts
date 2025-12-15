@@ -9,11 +9,17 @@ A collection of useful scripts and tools for cybersecurity, system administratio
 ```md
 |
 ├── Linux-Tools/
-|   ├── Empty/
+|   ├── Log-Analys/                             # (WIP)
 |   └── MD5-Hasher-Checker/                     # MD5 hash genaration and decrypt tools
+|
 ├── VM-Setup/
-│   ├── setup-debian.sh                         # Debian VM initial setup Basic (WIP)   
-│   └── setup-alpine.sh                         # Alpine Linux Setup (WIP)    
+│   ├── Setup-Debian.sh                         # Debian VM initial setup Basic (WIP)   
+│   └── Setup-Alpine.sh                         # Alpine Linux Setup (WIP)    
+|
+├── Windows-Tools/
+|   ├── Alias-Keyboard/                         # (WIP)
+|   └── EICAR-Test/                             # Test Windows Defender
+|
 └── README.md
 ```
 ## Project
@@ -24,3 +30,7 @@ A collection of useful scripts and tools for cybersecurity, system administratio
 ### VM-Setup
 - **setup-debian.sh** - Debian VM quick setup
 - **setup-alpine.sh** - Alpine Linux setup (WIP)
+
+### Windows-Tools
+- **Alias-Keyboard**  - My set up for keyboard for diffrent work env
+- **EICER-Test**      - Test for AV/EDR
